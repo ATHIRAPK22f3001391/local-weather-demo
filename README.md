@@ -1,36 +1,23 @@
-# City Weather (Open‑Meteo)
+# Weather Dashboard
 
 ## Overview
-A minimal single‑page app to fetch and display the current temperature and humidity for any city using the Open‑Meteo public APIs (Geocoding + Forecast). No API key required. Built with Bootstrap 5.
+A simple, no-key weather dashboard that shows current conditions and a 3-day forecast for any city. Users can search by city or use their current location. Temperatures can be toggled between Celsius and Fahrenheit, and compact weather icons are displayed for both current weather and the forecast.
+
+Powered by Open-Meteo (no API key required).
 
 ## Setup
-- No build steps or dependencies.
-- Open index.html in any modern browser with internet access.
+- Download or clone the project.
+- Open index.html in any modern browser.
+
+No build steps or API keys are required.
 
 ## Usage
-- Enter a city name (optionally include state/country for clarity, e.g., “Portland, US”).
-- Click “Get Weather” or press Enter.
-- The page shows the resolved location along with current temperature (°C) and relative humidity (%).
+- Enter a city name and press Enter or click Search.
+- Or click “My location” to use your device’s location (if permitted).
+- Toggle between °C and °F using the unit switch; both the current temperature and the forecast update immediately.
+- The 3-day forecast appears under the current weather as a table with date, icon, and min/max temperatures.
 
-## License
-MIT License
-
-Copyright (c) 2025 Contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the “Software”), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+## Improvements in Round 2
+- Added a 3-day forecast displayed in a compact table beneath the current weather.
+- Introduced a temperature units toggle (Celsius ⇄ Fahrenheit) that updates all temperatures.
+- Displayed small weather icons for current and forecast conditions, enhancing visual clarity.
